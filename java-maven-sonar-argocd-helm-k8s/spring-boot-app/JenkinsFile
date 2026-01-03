@@ -21,7 +21,7 @@ pipeline {
     }
     stage('Test Sonar Connectivity') {
   steps {
-    sh 'curl -v http://184.72.148.134:9000'
+    sh 'curl -v http://98.82.33.246:9000'
   }
 }
     stage('Static Code Analysis') {
